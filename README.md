@@ -5,4 +5,4 @@ Main language: PHP, JS
 To send the e-mails from PHP you should use PHPMailer
 https://github.com/PHPMailer/PHPMailer
 
-To excute, you should put this file in project.
+You should put this file in the project to excute.
