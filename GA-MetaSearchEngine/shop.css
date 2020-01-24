@@ -1,0 +1,35 @@
+#left{
+	display:inline-block;
+	float:left;
+	width:19%;
+	height:85%;
+	margin: 0;
+	border-top: 1px solid black;
+	padding-left: 1%;
+}
+#center{
+	display:inline-block;
+	float:left;
+	width:75%;
+	height:85%;
+	margin: 0;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	padding-left: 4%;
+}
+/*.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+*/
+table,th,td {
+	border : 1px solid black;
+	border-collapse: collapse;
+}
+th,td {
+	padding: 5px;
+}
+a {
+	cursor:hand;
+}
