@@ -1,0 +1,147 @@
+body {
+     
+	 background:	#6A5ACD;
+}
+
+
+header {
+    background: black;
+	color: white;
+	padding: 15px 15px 15px 15px;
+ 
+}
+header h1{
+    margin:0;
+	display: inline;
+}
+nav ul{
+    margin:0;
+	padding: 0 0 0 105px;
+	display: inline;
+	
+	
+
+}
+nav ul li{
+	background: #8A2BE2;
+	text-align: center
+	color: black;
+	display: inline-block;
+    list-style-type: none;
+	padding: 5px 15px;
+	border: 2px outset grey;
+	
+}
+nav ul li a{
+	color:yellow;
+}
+.row{
+	clear: both;
+	
+}
+
+
+.col{
+	background:yellow;
+	border-radius: 5px;
+	color: 	purple;
+	padding: 10px .5%;
+	width: 22%;
+	float: left;
+	margin: .5%;
+}
+footer{
+	clear: both;
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: pink;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main {
+  margin-left: 180px; /* Same as the width of the sidenav */
+}
+
+* {
+        cursor: url("http://www.rw-designer.com/cursor-view/32373.gif"), url("/examples/images/custom.cur"), default;
+    }
+    b {
+        margin: 20px;
+        -webkit-transition: color 1s; 
+        transition: color 1s; 
+    }
+    b:hover {
+        color: yellow;
+    }
+
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column {
+ background:#333;
+  border-radius: 5px;
+  color:  yellow;
+  padding: 10px .5%;
+  width: 22%;
+  float: left;
+  margin: .5%;
+}
+
+.containerTab {
+  background:#333;
+  border-radius: 5px;
+  color:  #4169E1;
+  padding: 10px .5%;
+  width: 22%;
+  float: left;
+  margin: .5%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
